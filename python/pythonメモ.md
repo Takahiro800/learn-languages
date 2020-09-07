@@ -32,3 +32,18 @@ https://qiita.com/gtracker64/items/b701b79434e23a1d28dd
 
 ## trueであれば、"yes",falseであれば"no"を出力
 `print('yes' if (条件式)　else 'no' )`
+
+## Unicodeコードポイントと文字の相互変換
+|  method   |  説明  |
+| ---- | ---- |
+|  chr()  |  Unicodeポイントを文字に変換  |
+|  ord() |  文字をUnicodeポイントに変換  |
+ex) アルファベット「g」は何番目かを求める
+`print(ord('g'))`
+ex) アルファベットの１０番目は何かを求める
+`print(chr(ord('a') + 9))`
+
+## 初期値が０以外のfor文
+range()の中に初期値と終わり値を書いてあげれば良い
+
+`for i in range(1, 11)`
